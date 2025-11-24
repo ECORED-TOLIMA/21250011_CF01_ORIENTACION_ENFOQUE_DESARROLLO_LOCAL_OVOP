@@ -93,15 +93,15 @@
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
-          span <em>Ciclo PHVA</em>
+          span <em>Logotipo de OVOP Colombia</em>
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema1/img08.svg', alt='En la figura 1 se presenta el eslogan de OVOP Colombia “Mi Pueblo, Mi Producto, Mi Orgullo” el cual representa la esencia del enfoque One Village, One Product. La frase destaca la conexión entre el territorio (Mi Pueblo), el desarrollo de un bien o servicio distintivo (Mi Producto) y el sentido de pertenencia y valoración comunitaria (Mi Orgullo). Gráficamente, suele incluir elementos alusivos al trabajo comunitario, los recursos locales y el desarrollo sostenible del territorio.')
+            img(src='@/assets/curso/temas/tema1/img08.svg', alt='En la figura 1 se presenta el logotipo de OVOP Colombia “Mi Pueblo, Mi Producto, Mi Orgullo” el cual representa la esencia del enfoque One Village, One Product. La frase destaca la conexión entre el territorio (Mi Pueblo), el desarrollo de un bien o servicio distintivo (Mi Producto) y el sentido de pertenencia y valoración comunitaria (Mi Orgullo). Gráficamente, suele incluir elementos alusivos al trabajo comunitario, los recursos locales y el desarrollo sostenible del territorio.')
             figcaption Nota. Tomado de JICA, SENA y Ministerio del Trabajo (2020).
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema1/img09.svg', alt='En la figura 1 se presenta el eslogan de OVOP Colombia “Mi Pueblo, Mi Producto, Mi Orgullo” el cual representa la esencia del enfoque One Village, One Product. La frase destaca la conexión entre el territorio (Mi Pueblo), el desarrollo de un bien o servicio distintivo (Mi Producto) y el sentido de pertenencia y valoración comunitaria (Mi Orgullo). Gráficamente, suele incluir elementos alusivos al trabajo comunitario, los recursos locales y el desarrollo sostenible del territorio.')
+          img(src='@/assets/curso/temas/tema1/img09.svg', alt='En la figura 1 se presenta el logotipo de OVOP Colombia “Mi Pueblo, Mi Producto, Mi Orgullo” el cual representa la esencia del enfoque One Village, One Product. La frase destaca la conexión entre el territorio (Mi Pueblo), el desarrollo de un bien o servicio distintivo (Mi Producto) y el sentido de pertenencia y valoración comunitaria (Mi Orgullo). Gráficamente, suele incluir elementos alusivos al trabajo comunitario, los recursos locales y el desarrollo sostenible del territorio.')
           figcaption Nota. Tomado de JICA, SENA y Ministerio del Trabajo (2020).
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -141,9 +141,9 @@
               .row.justify-content-center.align-items-center
                 .col.mb-sm-0.mb-4
                   p Para ampliar la información, descargue el documento anexo: 
-                  p.text-bold DE Estrategia de Desarrollo Local Incluyente OVOP Colombia.
+                  p.mb-0.text-bold DE_Estrategia_de_Desarrollo_Local_Incluyente_OVOP_Colombia.
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/DE_Estrategia_de_Desarrollo_Local_Incluyente_OVOP_Colombia.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/DE_Estrategia_de_Desarrollo_Local_Incluyente_OVOP_Colombia.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

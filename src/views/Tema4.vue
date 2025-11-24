@@ -38,11 +38,18 @@
               img(src='@/assets/curso/temas/tema4/img04.jpg', alt='Imagen decorativa')
         .row(titulo="Fase 4")
           .col-lg-6.mb-4.mb-md-0.order-lg-2.order-2
+            h4 Establecimiento
+            p Consiste en la implementación de las acciones definidas en la fase anterior. Aquí se consolidan las alianzas entre actores institucionales, productivos y comunitarios, y se promueve la autogestión de los procesos. Es una etapa clave para fortalecer las capacidades técnicas, organizativas y comerciales del grupo comunitario.
+          .col-lg-6.order-lg-1.order-1.mb-lg-0.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema4/img05.jpg', alt='Imagen decorativa')
+        .row(titulo="Fase 5")
+          .col-lg-6.mb-4.mb-md-0.order-lg-2.order-2
             h4 Sostenimiento
             p Busca garantizar la continuidad de los resultados alcanzados. Se enfoca en la generación de capacidades locales permanentes, la creación de redes colaborativas, el posicionamiento del producto en mercados más amplios y la consolidación de un liderazgo compartido que mantenga vivo el sueño colectivo.
           .col-lg-6.order-lg-1.order-1.mb-lg-0.mb-4
             figure
-              img(src='@/assets/curso/temas/tema4/img05.jpg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/tema4/img06.jpg', alt='Imagen decorativa')
     p.mb-5(data-aos="fade-down") La metodología se organiza en temas estratégicos, y cada guía práctica (DM) se relaciona con un componente del proceso:
     .row.mb-5(data-aos="flip-down")
       .col-md-6.col-lg.tarjeta--tabla.p-4
@@ -258,6 +265,8 @@
               tr
                 th(colspan="3").text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") GUIA PARA EL REDESCUBRIMIENTO DE TESOROS LOCALES
               tr
+                td(colspan="3")(data-aos="fade-down")(style="background-color: #F6F6F6") <b>Objetivo del taller</b>: identificar los tesoros locales del territorio y valorar su potencial para el desarrollo local a través de procesos participativos.
+              tr
                 td(colspan="3").text-bold(data-aos="fade-down") Condiciones previas:
                   ul.lista-ul.mb-0(data-aos="fade-down")
                     li.mb-0
@@ -329,7 +338,7 @@
                 th(colspan="3")(data-aos="fade-down") Materiales y recursos empleados
             tbody(style="background-color:#D9E6FF")
               tr
-                th(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de materiales
+                td.text-bold(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de materiales
             tbody
               tr
                 th(data-aos="fade-down")(style="background-color: #F6F6F6") Material
@@ -363,7 +372,7 @@
                 td(colspan="2")(data-aos="fade-down") 20 negros.
             tbody(style="background-color:#D9E6FF")
               tr
-                th(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de impresiones
+                td.text-bold(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de impresiones
             tbody
               tr
                 th(data-aos="fade-down")(style="background-color: #F6F6F6") Documento / Formato
@@ -394,7 +403,7 @@
                 td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Copias igual a # de participantes.
             tbody(style="background-color:#D9E6FF")
               tr
-                th(colspan="3")(data-aos="fade-down") Metodologías sugeridas
+                td.text-bold(colspan="3")(data-aos="fade-down") Metodologías sugeridas
             tbody
               tr
                 td(colspan="3").text-bold(data-aos="fade-down") 
@@ -407,7 +416,7 @@
                       p.mb-0 Cartografía social.
             tbody(style="background-color:#D9E6FF")
               tr
-                th(colspan="3")(data-aos="fade-down") Después del taller
+                td.text-bold(colspan="3")(data-aos="fade-down") Después del taller
             tbody
               tr
                 td(colspan="3").text-bold(data-aos="fade-down") Digitar y organizar los resultados del taller. También se sugiere elaborar un informe ejecutivo del taller que contenga la siguiente información:
@@ -443,9 +452,9 @@
               .row.justify-content-center.align-items-center
                 .col.mb-sm-0.mb-4
                   p Para profundizar en las orientaciones metodológicas, se recomienda consultar y descargar el documento:
-                  p.text-bold DM 01 Guía para el redescubrimiento de tesoros locales.
+                  p.text-bold DM_01_Guía_para_el_redescubrimiento_de_tesoros_locales.
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/DM_01_Guia_para_el_redescubrimiento_de_tesoros_locales.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/DM_01_Guia_para_el_redescubrimiento_de_tesoros_locales.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     separador
@@ -493,10 +502,10 @@
           figure.desktop
             img(src='@/assets/curso/temas/tema4/img27.svg', alt='La figura 3 representa la experiencia territorial “Mompox: vivir es arte”, donde la comunidad construye su visión de futuro a partir de su identidad cultural, creatividad y sentido de pertenencia. Incluye elementos como el territorio, la cultura, los valores y las aspiraciones colectivas, que evidencian la aplicación de la metodología participativa del enfoque OVOP.')
             figcaption Nota. Tomado de la Guía 2 OVOP Colombia (SENA, JICA, MinCIT, 2020 ).
-        .col-12
-          figure.movil
-            img(src='@/assets/curso/temas/tema4/img28.svg', alt='La figura 3 representa la experiencia territorial “Mompox: vivir es arte”, donde la comunidad construye su visión de futuro a partir de su identidad cultural, creatividad y sentido de pertenencia. Incluye elementos como el territorio, la cultura, los valores y las aspiraciones colectivas, que evidencian la aplicación de la metodología participativa del enfoque OVOP.')
-            figcaption Nota. Tomado de la Guía 2 OVOP Colombia (SENA, JICA, MinCIT, 2020 ).
+      .col-12
+        figure.movil
+          img(src='@/assets/curso/temas/tema4/img28.svg', alt='La figura 3 representa la experiencia territorial “Mompox: vivir es arte”, donde la comunidad construye su visión de futuro a partir de su identidad cultural, creatividad y sentido de pertenencia. Incluye elementos como el territorio, la cultura, los valores y las aspiraciones colectivas, que evidencian la aplicación de la metodología participativa del enfoque OVOP.')
+          figcaption Nota. Tomado de la Guía 2 OVOP Colombia (SENA, JICA, MinCIT, 2020 ).
     p.mb-5(data-aos="fade-down") Para llevar a cabo este proceso de manera estructurada, es fundamental contar con una guía que oriente cada etapa de trabajo comunitario. A continuación, se presenta la ficha técnica que describe las actividades, recursos y condiciones necesarias para facilitar la construcción participativa del sueño colectivo en los territorios.
     .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-12
@@ -568,7 +577,7 @@
               tr
                 th(colspan="3")(data-aos="fade-down") Materiales y recursos empleados
               tr
-                th(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de materiales
+                td.text-bold(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de materiales
             tbody
               tr
                 th(data-aos="fade-down")(style="background-color: #F6F6F6") Material
@@ -602,7 +611,7 @@
                 td(colspan="2")(data-aos="fade-down") 20 negros.
             tbody(style="background-color:#D9E6FF")
               tr
-                th(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de impresiones
+                td.text-bold(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de impresiones
             tbody
               tr
                 th(data-aos="fade-down")(style="background-color: #F6F6F6") Documento / Formato
@@ -633,7 +642,7 @@
                 td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Copias igual a # de participantes.
             tbody(style="background-color:#D9E6FF")
               tr
-                th(colspan="3")(data-aos="fade-down") Metodologías sugeridas
+                td.text-bold(colspan="3")(data-aos="fade-down") Metodologías sugeridas
             tbody
               tr
                 td(colspan="3").text-bold(data-aos="fade-down") 
@@ -646,7 +655,7 @@
                       p.mb-0 Uso del concepto <em>backcasting</em>.
             tbody(style="background-color:#D9E6FF")
               tr
-                th(colspan="3")(data-aos="fade-down") Después del taller
+                td.text-bold(colspan="3")(data-aos="fade-down") Después del taller
             tbody
               tr
                 td(colspan="3").text-bold(data-aos="fade-down") Digitar y organizar los resultados del taller. También se sugiere elaborar un informe ejecutivo del taller que contenga la siguiente información:
@@ -681,9 +690,9 @@
             .col
               .row.justify-content-center.align-items-center
                 .col.mb-sm-0.mb-4
-                  p Con el fin de fortalecer los conocimientos y orientar el desarrollo práctico de esta fase, se recomienda consultar el documento <b>DM_02_Guía para la construcción del sueño colectivo OVOP</b>, donde se describen las estrategias didácticas y los recursos necesarios para la formulación del sueño colectivo en los territorios.
+                  p Con el fin de fortalecer los conocimientos y orientar el desarrollo práctico de esta fase, se recomienda consultar el documento <b>DM_02_Guia_para_la_construccion_del_sueno_colectivo_OVOP</b>, donde se describen las estrategias didácticas y los recursos necesarios para la formulación del sueño colectivo en los territorios.
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/DM_02_Guia_para_la_construccion_del_sueno_colectivo_OVOP.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/DM_02_Guia_para_la_construccion_del_sueno_colectivo_OVOP.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     separador
@@ -810,7 +819,7 @@
               tr
                 th(colspan="3")(data-aos="fade-down") Materiales y recursos empleados
               tr
-                th(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de materiales
+                td.text-bold(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de materiales
             tbody
               tr
                 th(data-aos="fade-down")(style="background-color: #F6F6F6") Material
@@ -844,7 +853,7 @@
                 td(colspan="2")(data-aos="fade-down") 20 negros.
             tbody(style="background-color:#D9E6FF")
               tr
-                th(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de impresiones
+                td.text-bold(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de impresiones
             tbody
               tr
                 th(data-aos="fade-down")(style="background-color: #F6F6F6") Documento / Formato
@@ -875,7 +884,7 @@
                 td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Copias igual a # de participantes.
             tbody(style="background-color:#D9E6FF")
               tr
-                th(colspan="3")(data-aos="fade-down") Metodologías sugeridas
+                td.text-bold(colspan="3")(data-aos="fade-down") Metodologías sugeridas
             tbody
               tr
                 td(colspan="3").text-bold(data-aos="fade-down") 
@@ -888,7 +897,7 @@
                       p.mb-0 Lluvia de ideas.
             tbody(style="background-color:#D9E6FF")
               tr
-                th(colspan="3")(data-aos="fade-down") Después del taller
+                td.text-bold(colspan="3")(data-aos="fade-down") Después del taller
             tbody
               tr
                 td(colspan="3").text-bold(data-aos="fade-down") Digitar y organizar los resultados del taller. También se sugiere elaborar un informe ejecutivo del taller que contenga la siguiente información:
@@ -923,9 +932,9 @@
             .col
               .row.justify-content-center.align-items-center
                 .col.mb-sm-0.mb-4
-                  p Para profundizar en los conceptos y metodologías de esta fase, se recomienda consultar la <b>Guía DM_03_Guía para la ideación de producto OVOP</b>, donde se presentan las estrategias didácticas y recursos necesarios para desarrollar propuestas de valor que respondan a las aspiraciones colectivas de cada territorio.
+                  p Para profundizar en los conceptos y metodologías de esta fase, se recomienda consultar la <b>DM_03_Guia_para_la_ideacion_de_Producto_OVOP</b>, donde se presentan las estrategias didácticas y recursos necesarios para desarrollar propuestas de valor que respondan a las aspiraciones colectivas de cada territorio.
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/DM_03_Guia_para_la_ideacion_de_Producto_OVOP.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/DM_03_Guia_para_la_ideacion_de_Producto_OVOP.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     separador
@@ -984,10 +993,10 @@
           figure.desktop
             img(src='@/assets/curso/temas/tema4/img33.svg', alt='La figura 4 representa el proceso de transformación de los recursos locales en productos OVOP. Inicia con la conciencia comunitaria, continúa con la identificación de recursos locales, su valoración como recursos potenciales, el agregado de valor para generar productos potenciales, la comercialización comunitaria y finalmente la consolidación de productos OVOP.')
             figcaption Nota. Tomado de la Guía 4 OVOP Colombia (SENA, JICA, MinCIT, 2020 ).
-        .col-12
-          figure.movil
-            img(src='@/assets/curso/temas/tema4/img34.svg', alt='La figura 4 representa el proceso de transformación de los recursos locales en productos OVOP. Inicia con la conciencia comunitaria, continúa con la identificación de recursos locales, su valoración como recursos potenciales, el agregado de valor para generar productos potenciales, la comercialización comunitaria y finalmente la consolidación de productos OVOP.')
-            figcaption Nota. Tomado de la Guía 4 OVOP Colombia (SENA, JICA, MinCIT, 2020 ).
+      .col-12
+        figure.movil
+          img(src='@/assets/curso/temas/tema4/img34.svg', alt='La figura 4 representa el proceso de transformación de los recursos locales en productos OVOP. Inicia con la conciencia comunitaria, continúa con la identificación de recursos locales, su valoración como recursos potenciales, el agregado de valor para generar productos potenciales, la comercialización comunitaria y finalmente la consolidación de productos OVOP.')
+          figcaption Nota. Tomado de la Guía 4 OVOP Colombia (SENA, JICA, MinCIT, 2020 ).
     .row.align-items-center.mb-5(data-aos="flip-down")
       .col-auto.pe-0(style="z-index:2")
         figure
@@ -1006,10 +1015,10 @@
           figure.desktop
             img(src='@/assets/curso/temas/tema4/img35.svg', alt='En la figura 5 se presentan las fases del proceso OVOP: Fase I, evaluación de “Mi Pueblo”, identificación de recursos locales e ideación de productos; Fase II, análisis de productos potenciales, formación de redes de negocio colectivo y definición del producto OVOP; y Fase III, gestión del producto, presentación a la comunidad y elaboración del plan de negocio basado en la estrategia de marca territorial. Cada fase incluye actividades y resultados esperados como fichas técnicas, listados de tesoros locales y modelos de negocio.')
             figcaption Nota. Tomado de la Guía 4 OVOP Colombia (SENA, JICA, MinCIT, 2020).
-        .col-12
-          figure.movil
-            img(src='@/assets/curso/temas/tema4/img36.svg', alt='En la figura 5 se presentan las fases del proceso OVOP: Fase I, evaluación de “Mi Pueblo”, identificación de recursos locales e ideación de productos; Fase II, análisis de productos potenciales, formación de redes de negocio colectivo y definición del producto OVOP; y Fase III, gestión del producto, presentación a la comunidad y elaboración del plan de negocio basado en la estrategia de marca territorial. Cada fase incluye actividades y resultados esperados como fichas técnicas, listados de tesoros locales y modelos de negocio.')
-            figcaption Nota. Tomado de la Guía 4 OVOP Colombia (SENA, JICA, MinCIT, 2020).
+      .col-12
+        figure.movil
+          img(src='@/assets/curso/temas/tema4/img36.svg', alt='En la figura 5 se presentan las fases del proceso OVOP: Fase I, evaluación de “Mi Pueblo”, identificación de recursos locales e ideación de productos; Fase II, análisis de productos potenciales, formación de redes de negocio colectivo y definición del producto OVOP; y Fase III, gestión del producto, presentación a la comunidad y elaboración del plan de negocio basado en la estrategia de marca territorial. Cada fase incluye actividades y resultados esperados como fichas técnicas, listados de tesoros locales y modelos de negocio.')
+          figcaption Nota. Tomado de la Guía 4 OVOP Colombia (SENA, JICA, MinCIT, 2020).
     .row.align-items-center.mb-5(data-aos="flip-down")
       .col-auto.pe-0(style="z-index:2")
         figure
@@ -1027,9 +1036,9 @@
             .col
               .row.justify-content-center.align-items-center
                 .col.mb-sm-0.mb-4
-                  p La ficha técnica municipal consolida datos relevantes sobre la composición poblacional, los hogares, la extensión territorial y las principales actividades económicas, lo que permite contextualizar los resultados del análisis de la cadena de valor. Para ampliar la información, consultar el documento anexo: <b>Ficha de analisis cadena de valor para instructores OVOP</b>.
+                  p La ficha técnica municipal consolida datos relevantes sobre la composición poblacional, los hogares, la extensión territorial y las principales actividades económicas, lo que permite contextualizar los resultados del análisis de la cadena de valor. Para ampliar la información, consultar el documento anexo: <b>Ficha_de_analisis_cadena_de_valor_para_instructores_OVOP.</b>
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Ficha_de_analisis_cadena_de_valor_para_instructores_OVOP.xlsx')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Ficha_de_analisis_cadena_de_valor_para_instructores_OVOP.xlsx')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     .row.align-items-center.mb-5(data-aos="flip-down")
@@ -1084,10 +1093,10 @@
           figure.desktop
             img(src='@/assets/curso/temas/tema4/img39.svg', alt='La figura 6 representa una cadena de valor simple')
             figcaption Nota. Adaptado de la Guía 5 OVOP Colombia (SENA, JICA, MinCIT, 2020 ).
-        .col-12
-          figure.movil
-            img(src='@/assets/curso/temas/tema4/img40.svg', alt='La figura 6 representa una cadena de valor simple')
-            figcaption Nota. Adaptado de la Guía 4 OVOP Colombia (SENA, JICA, MinCIT, 2020).
+      .col-12
+        figure.movil
+          img(src='@/assets/curso/temas/tema4/img40.svg', alt='La figura 6 representa una cadena de valor simple')
+          figcaption Nota. Adaptado de la Guía 4 OVOP Colombia (SENA, JICA, MinCIT, 2020).
     p(data-aos="fade-down") Con los conocimientos descritos se busca comprender los conceptos fundamentales de la Guía para el estudio de Cadena de Valor Simple, fortaleciendo las capacidades comunitarias para la planificación y el desarrollo local.
     p.mb-5(data-aos="fade-down") En la guía de Cadena de Valor Simple se proponen dos metodologías para el análisis de la misma, sin embargo, se deja a discreción del instructor integrar otras metodologías que considere pertinente para tal fin, que hagan parte del ecosistema formativo del SENA.
     .row.justify-content-center.mb-5(data-aos="flip-down")
@@ -1146,7 +1155,7 @@
               tr
                 th(colspan="3")(data-aos="fade-down") Materiales y recursos empleados
               tr
-                th(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de materiales
+                td.text-bold(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de materiales
             tbody
               tr
                 th(data-aos="fade-down")(style="background-color: #F6F6F6") Material
@@ -1180,7 +1189,7 @@
                 td(colspan="2")(data-aos="fade-down") 20 negros.
             tbody(style="background-color:#D9E6FF")
               tr
-                th(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de impresiones
+                td.text-bold(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de impresiones
             tbody
               tr
                 th(data-aos="fade-down")(style="background-color: #F6F6F6") Documento / Formato
@@ -1211,7 +1220,7 @@
                 td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Copias igual a # de participantes.
             tbody(style="background-color:#D9E6FF")
               tr
-                th(colspan="3")(data-aos="fade-down") Metodologías sugeridas
+                td.text-bold(colspan="3")(data-aos="fade-down") Metodologías sugeridas
             tbody
               tr
                 td(colspan="3").text-bold(data-aos="fade-down") 
@@ -1224,7 +1233,7 @@
                       p.mb-0 Análisis de Cadena de Valor Simple.
             tbody(style="background-color:#D9E6FF")
               tr
-                th(colspan="3")(data-aos="fade-down") Después del taller
+                td.text-bold(colspan="3")(data-aos="fade-down") Después del taller
             tbody
               tr
                 td(colspan="3").text-bold(data-aos="fade-down") Digitar y organizar los resultados del taller. También se sugiere elaborar un informe ejecutivo del taller que contenga la siguiente información:
@@ -1259,17 +1268,17 @@
             .col
               .row.justify-content-center.align-items-center
                 .col.mb-sm-0.mb-4
-                  p Para ampliar la información y acceder a las actividades propuestas, se recomienda consultar la guía <b>DM 04 Guia para el estudio de Cadena de Valor Simple y seleccion de Mi Producto OVOP</b>.
+                  p Para ampliar la información y acceder a las actividades propuestas, se recomienda consultar la guía <b>DM_04_Guia_para_el_estudio_de_Cadena_de_Valor_Simple_y_seleccion_de_Mi_Producto_OVOP.</b>
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/DM_04_Guia_para_el_estudio_de_Cadena_de_Valor_Simple_y_seleccion_de_Mi-Producto.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/DM_04_Guia_para_el_estudio_de_Cadena_de_Valor_Simple_y_seleccion_de_Mi-Producto.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     separador
     #t_4_5.titulo-segundo.color-acento-contenido(data-aos="flip-down")
       h2 4.5 Guía fortalecimiento de líderes OVOP
-    .tarjeta.tarjeta--BG05.px-lg-5.p-4.mb-4
+    .tarjeta.tarjeta--BG05.px-lg-5.py-3.mb-5
       p(data-aos="fade-down") Esta guía consta de cinco módulos y tiene como objetivo orientar a los instructores de OVOP Colombia en la transferencia de conocimientos hacia la comunidad, para fortalecer las competencias de los líderes comunitarios. De esta manera, los participantes pueden convertirse en líderes OVOP, capaces de promover el desarrollo local mediante la autogestión, la participación y la creatividad.
-      .row.justify-content-center.mb-5(data-aos="flip-down")
+      .row.justify-content-center.mb-0(data-aos="flip-down")
         .col-lg-10.col-12
           .titulo-sexto.color-acento-contenido
             h5 Tabla 6.
@@ -1307,7 +1316,7 @@
     p(data-aos="fade-down") En el enfoque OVOP, los miembros de cada territorio se convierten en actores clave del cambio positivo, promoviendo una visión de desarrollo basada en la autogestión, la creatividad y la cooperación. Un liderazgo efectivo en este contexto requiere que los líderes comprendan profundamente la filosofía OVOP, para que su contribución impacte de manera sostenible a la comunidad.
     p.mb-4(data-aos="fade-down") El liderazgo colectivo implica que varios líderes asuman roles complementarios dentro de la comunidad, fomentando la participación y fortaleciendo las capacidades locales.
     .col-lg-4.col-md-5.col-auto
-      .titulo-sexto.color-secundario.etiqueta01
+      .titulo-sexto.color-acento-contenido01.etiqueta01
         h5 Elementos fundamentales para ser un líder OVOP
     ul.lista-ul.mb-4(data-aos="fade-down")
       li.mb-0
@@ -1406,10 +1415,10 @@
           figure.desktop
             img(src='@/assets/curso/temas/tema4/img44.svg', alt='La figura 7 presenta tres acciones clave del liderazgo OVOP: actualizarse, comunicarse y delegar. Estas promueven la planificación y revisión de actividades, la comunicación con otros líderes y la delegación de tareas para fortalecer el trabajo colectivo.')
             figcaption Nota. Adaptado de la Guía 5 OVOP Colombia (SENA, JICA, MinCIT, 2020).
-        .col-12
-          figure.movil
-            img(src='@/assets/curso/temas/tema4/img45.svg', alt='La figura 7 presenta tres acciones clave del liderazgo OVOP: actualizarse, comunicarse y delegar. Estas promueven la planificación y revisión de actividades, la comunicación con otros líderes y la delegación de tareas para fortalecer el trabajo colectivo.')
-            figcaption Nota. Adaptado de la Guía 5 OVOP Colombia (SENA, JICA, MinCIT, 2020 ).
+      .col-12
+        figure.movil
+          img(src='@/assets/curso/temas/tema4/img45.svg', alt='La figura 7 presenta tres acciones clave del liderazgo OVOP: actualizarse, comunicarse y delegar. Estas promueven la planificación y revisión de actividades, la comunicación con otros líderes y la delegación de tareas para fortalecer el trabajo colectivo.')
+          figcaption Nota. Adaptado de la Guía 5 OVOP Colombia (SENA, JICA, MinCIT, 2020 ).
     p.mb-5(data-aos="fade-down") Para el taller de clasificación de los tipos de liderazgo remítase a la guía OVOP correspondiente.
     .row.align-items-center.mb-5(data-aos="flip-down")
       .col-auto.pe-0(style="z-index:2")
@@ -1481,10 +1490,10 @@
           figure.desktop
             img(src='@/assets/curso/temas/tema4/img49.svg', alt='La figura 8 representa el ciclo PHVA, conformado por cuatro etapas: planificar, hacer, verificar y actuar, utilizadas para gestionar y mejorar continuamente las acciones comunitarias en OVOP.')
             figcaption Nota.Tomado de la Guía 5 OVOP Colombia (SENA, JICA, MinCIT, 2020).
-        .col-12
-          figure.movil
-            img(src='@/assets/curso/temas/tema4/img50.svg', alt='La figura 8 representa el ciclo PHVA, conformado por cuatro etapas: planificar, hacer, verificar y actuar, utilizadas para gestionar y mejorar continuamente las acciones comunitarias en OVOP.')
-            figcaption Nota.Tomado de la Guía 5 OVOP Colombia (SENA, JICA, MinCIT, 2020).
+      .col-12
+        figure.movil
+          img(src='@/assets/curso/temas/tema4/img50.svg', alt='La figura 8 representa el ciclo PHVA, conformado por cuatro etapas: planificar, hacer, verificar y actuar, utilizadas para gestionar y mejorar continuamente las acciones comunitarias en OVOP.')
+          figcaption Nota.Tomado de la Guía 5 OVOP Colombia (SENA, JICA, MinCIT, 2020).
     .row.justify-content-center.mb-0(data-aos="flip-down")
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad
@@ -1674,7 +1683,7 @@
               tr
                 th(colspan="3")(data-aos="fade-down") Materiales y recursos empleados
               tr
-                th(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de materiales
+                td.text-bold(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de materiales
             tbody
               tr
                 th(data-aos="fade-down")(style="background-color: #F6F6F6") Material
@@ -1708,7 +1717,7 @@
                 td(colspan="2")(data-aos="fade-down") 20 negros.
             tbody(style="background-color:#D9E6FF")
               tr
-                th(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de impresiones
+                td.text-bold(colspan="3")(data-aos="fade-down") Ejemplo de lista de chequeo de impresiones
             tbody
               tr
                 th(data-aos="fade-down")(style="background-color: #F6F6F6") Documento / Formato
@@ -1739,7 +1748,7 @@
                 td(colspan="2")(data-aos="fade-down")(style="background-color: #F6F6F6") Copias igual a # de participantes.
             tbody(style="background-color:#D9E6FF")
               tr
-                th(colspan="3")(data-aos="fade-down") Metodologías sugeridas
+                td.text-bold(colspan="3")(data-aos="fade-down") Metodologías sugeridas
             tbody
               tr
                 td(colspan="3").text-bold(data-aos="fade-down") 
@@ -1758,7 +1767,7 @@
                       p.mb-0 Talleres prácticos.
             tbody(style="background-color:#D9E6FF")
               tr
-                th(colspan="3")(data-aos="fade-down") Después del taller
+                td.text-bold(colspan="3")(data-aos="fade-down") Después del taller
             tbody
               tr
                 td(colspan="3").text-bold(data-aos="fade-down") Digitar y organizar los resultados del taller. También se sugiere elaborar un informe ejecutivo del taller que contenga la siguiente información:
@@ -1793,9 +1802,9 @@
             .col
               .row.justify-content-center.align-items-center
                 .col.mb-sm-0.mb-4
-                  p Para ampliar la información y acceder a las actividades propuestas, se recomienda consultar la guía <b>DM 05 Guia de fortalecimiento de lideres OVOP</b>.
+                  p Para ampliar la información y acceder a las actividades propuestas, se recomienda consultar la guía <b>DM_05_Guia_de_fortalecimiento_de_lideres_OVOP.</b>
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/DM_05_Guia_de_fortalecimiento_de_lideres_OVOP.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/DM_05_Guia_de_fortalecimiento_de_lideres_OVOP.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 </template>

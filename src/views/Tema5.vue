@@ -7,12 +7,12 @@
         span 5
       h1 Evaluación de los aprendizajes en el enfoque OVOP
     .row.justify-content-center.mb-0
-      .col-lg-8.order-lg-1.order-2
+      .col-lg-7.order-lg-1.order-2
         p(data-aos="fade-down") La evaluación de los aprendizajes en el enfoque OVOP (One Village, One Product) se orienta a valorar el proceso integral de formación, más allá de los conocimientos teóricos. Su propósito es identificar cómo las personas aplican lo aprendido para generar cambios reales en su territorio, fortaleciendo la autogestión, el liderazgo colectivo y la transformación social.
         .cajon.cajon.C01.color-primario.p-4.mb-3
           p.mb-0(data-aos="fade-down") En este contexto, la evaluación se concibe como un proceso continuo, participativo y reflexivo, que involucra tanto a los instructores como a los aprendices y a la comunidad. No solo busca determinar qué se aprendió, sino también cómo se aprende y cómo ese conocimiento contribuye al desarrollo local.
         p(data-aos="fade-down") Además, la evaluación en OVOP tiene un enfoque formativo y de mejora constante, en el que los resultados son una oportunidad para ajustar estrategias, promover la cooperación entre los actores del territorio y consolidar el orgullo local como motor del desarrollo sostenible. Evaluar, por tanto, implica acompañar y reconocer el progreso colectivo hacia una visión compartida de crecimiento comunitario.
-      .col-lg-4.order-lg-2.order-1.mb-3.col-md-5.col-7
+      .col-lg-5.order-lg-2.order-1.mb-3.col-md-5.col-7
         figure(data-aos="fade-up") 
           img(src='@/assets/curso/temas/tema5/img01.png', alt='Imagen decorativa')
     separador

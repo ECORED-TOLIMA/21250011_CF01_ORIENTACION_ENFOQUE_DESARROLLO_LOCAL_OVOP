@@ -62,7 +62,7 @@
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.2 Comunidad
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-down")
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img07.jpg')})`}"
       )
@@ -123,7 +123,7 @@
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.4 Liderazgo
     p.mb-5(data-aos="fade-down") El liderazgo se entiende como el conjunto de habilidades que permiten conducir, orientar y acompañar a un grupo de personas hacia el logro de objetivos comunes. Un líder no solo influye en su grupo, sino que también aporta ideas innovadoras y motiva a cada integrante a desarrollar su máximo potencial. En el contexto comunitario, el liderazgo se relaciona con la capacidad de inspirar, movilizar y mantener la cohesión social en torno a una visión compartida de desarrollo.
-    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img11.jpg')})`}"
       )

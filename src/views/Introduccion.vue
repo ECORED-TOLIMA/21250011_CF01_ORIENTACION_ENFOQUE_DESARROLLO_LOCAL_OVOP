@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     p.mb-5(data-aos="fade-down") Este componente presenta los fundamentos y herramientas esenciales del enfoque OVOP (One Village, One Product), orientado al fortalecimiento de capacidades locales para el desarrollo sostenible, la visibilización de los territorios y la generación de valor a partir de los recursos y talentos comunitarios.
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.col-8.col-md-7.order-lg-1.order-1.mb-3
         figure
           img(src='@/assets/curso/temas/intro/img01.svg', alt='Imagen decorativa')
@@ -22,7 +22,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/zAHMbUPfsgM?si=TB5Yq4OE3g2y6iNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 
 </template>
