@@ -325,7 +325,7 @@
                   ul.lista-ul.mb-0(data-aos="fade-down") 
                     li.mb-0
                       i.lista-ul__vineta
-                      p.mb-0 Frases o eslóganes que identifican su municipio.
+                      p.mb-0 Frases o <em>slogans</em> que identifican su municipio.
                     li.mb-0
                       i.lista-ul__vineta
                       p.mb-0 Listado de cinco tesoros con mayor potencialidad.
@@ -460,7 +460,7 @@
     separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-down")
       h2 4.2 Guía para la construcción del sueño colectivo OVOP
-    .row.justify-content-center.mb-0
+    .row.justify-content-center.mb-5
       .col-lg-8.order-lg-1.order-2
         p(data-aos="fade-down") Dentro de la ruta metodológica de OVOP Colombia, la construcción del sueño colectivo representa un paso esencial en la “Fase 2”, correspondiente a la definición del producto o productos del territorio. Su propósito es generar valor en torno a “Mi Producto”, fortaleciendo la identidad, la visión compartida y el compromiso comunitario con el desarrollo local.
         .cajon.cajon.C01.color-primario.p-4.mb-3
@@ -477,11 +477,11 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema4/img24.svg', alt=' La figura 2 presenta el modelo de planificación de <em>backcasting</em> en el cual la comunidad define una meta futura deseable, el “sueño colectivo”, y a partir de ella planifica las acciones necesarias desde el presente para alcanzarla. Se contrasta con la perspectiva de forecasting, que pronostica el futuro basándose en las condiciones y recursos actuales. El enfoque OVOP adopta el <em>backcasting</em> para orientar el desarrollo local desde una visión compartida de futuro.')
+            img(src='@/assets/curso/temas/tema4/img24.svg', alt='La figura 2 presenta el modelo de planificación de <em>backcasting</em> en el cual la comunidad define una meta futura deseable, el “sueño colectivo”, y a partir de ella planifica las acciones necesarias desde el presente para alcanzarla. Se contrasta con la perspectiva de forecasting, que pronostica el futuro basándose en las condiciones y recursos actuales. El enfoque OVOP adopta el <em>backcasting</em> para orientar el desarrollo local desde una visión compartida de futuro.')
             figcaption Nota. Tomado de la Guía 2 OVOP Colombia (SENA, JICA, MinCIT, 2020).
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema4/img25.svg', alt=' La figura 2 presenta el modelo de planificación de <em>backcasting</em> en el cual la comunidad define una meta futura deseable, el “sueño colectivo”, y a partir de ella planifica las acciones necesarias desde el presente para alcanzarla. Se contrasta con la perspectiva de forecasting, que pronostica el futuro basándose en las condiciones y recursos actuales. El enfoque OVOP adopta el <em>backcasting</em> para orientar el desarrollo local desde una visión compartida de futuro.')
+          img(src='@/assets/curso/temas/tema4/img25.svg', alt='La figura 2 presenta el modelo de planificación de <em>backcasting</em> en el cual la comunidad define una meta futura deseable, el “sueño colectivo”, y a partir de ella planifica las acciones necesarias desde el presente para alcanzarla. Se contrasta con la perspectiva de forecasting, que pronostica el futuro basándose en las condiciones y recursos actuales. El enfoque OVOP adopta el <em>backcasting</em> para orientar el desarrollo local desde una visión compartida de futuro.')
           figcaption Nota. Tomado de la Guía 2 OVOP Colombia (SENA, JICA, MinCIT, 2020).
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-down")
       .bloque-texto-g__img(
@@ -533,7 +533,7 @@
                       p.mb-0 Listado largo de tesoros locales.
                     li.mb-0
                       i.lista-ul__vineta
-                      p.mb-0 Listado de propuestas de eslóganes del municipio.
+                      p.mb-0 Listado de propuestas de <em>slogans</em> del municipio.
             tbody(style="background-color:#D9E6FF")
               tr
                 th(colspan="3")(data-aos="fade-down") Agenda y resultados esperados
@@ -748,7 +748,7 @@
                       p.mb-0 Listado largo de tesoros locales.
                     li.mb-0
                       i.lista-ul__vineta
-                      p.mb-0 Listado de propuestas de eslóganes del municipio.
+                      p.mb-0 Listado de propuestas de <em>slogans</em> del municipio.
                     li.mb-0
                       i.lista-ul__vineta
                       p.mb-0 Listado de tesoros locales con mayor potencial.
@@ -1061,15 +1061,15 @@
         p(data-aos="fade-down") Para medir el impacto de un producto en el desarrollo local, se requiere seleccionar al menos dos productos potenciales, es decir, tesoros con valor agregado o posibilidad de generarlo, que puedan ser producidos o comercializados por la comunidad.        
         p(data-aos="fade-down") Analizar productos que aún no están en el mercado permite aprovechar la creatividad surgida en las fases anteriores, identificando oportunidades para convertirlos en productos estrella que impulsen la economía local. La información básica de cada producto potencial debe incluir:
         .tarjeta.tarjeta--C01.p-4.mb-3
-          ul.lista-ul--color.mb-0(data-aos="fade-down")
-            li.mb-1
-              i.fas.fa-dna
+          ul.lista-ul.mb-0(data-aos="fade-down")
+            li.mb-0
+              i.lista-ul__vineta
               p.mb-0 Proceso de producción paso a paso y costos.
-            li.mb-1
-              i.fas.fa-dna
+            li.mb-0
+              i.lista-ul__vineta
               p.mb-0 Ventas actuales (cantidad, precio y clientes).
-            li.mb-1
-              i.fas.fa-dna
+            li.mb-0
+              i.lista-ul__vineta
               p.mb-0 Emprendimientos o personas responsables del producto.
       .col-lg-5.order-lg-2.order-1.mb-3.col-md-5.col-7
         figure(data-aos="flip-down") 
@@ -1274,38 +1274,39 @@
                     span Descargar
                     i.fas.fa-file-download
     separador
-    #t_4_5.titulo-segundo.color-acento-contenido(data-aos="flip-down")
+    #t_4_5.titulo-segundo.color-acento-contenido.mb-0(data-aos="flip-down")
       h2 4.5 Guía fortalecimiento de líderes OVOP
-    .tarjeta.tarjeta--BG05.px-lg-5.py-3.mb-5
-      p(data-aos="fade-down") Esta guía consta de cinco módulos y tiene como objetivo orientar a los instructores de OVOP Colombia en la transferencia de conocimientos hacia la comunidad, para fortalecer las competencias de los líderes comunitarios. De esta manera, los participantes pueden convertirse en líderes OVOP, capaces de promover el desarrollo local mediante la autogestión, la participación y la creatividad.
-      .row.justify-content-center.mb-0(data-aos="flip-down")
-        .col-lg-10.col-12
-          .titulo-sexto.color-acento-contenido
-            h5 Tabla 6.
-            span <em>Módulos de la Guía fortalecimiento de líderes OVOP</em>
-          .tabla-a.color-acento-contenido
-            table
-              thead
-                tr
-                  th(data-aos="fade-down")(style= "width: 50%") Módulo
-                  th(data-aos="fade-down")(style= "width: 50%") Contenido
-              tbody
-                tr
-                  td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") 1
-                  td(data-aos="fade-down")(style="background-color: #F6F6F6") Generalidades de OVOP
-                tr
-                  td.text-bold(data-aos="fade-down")(style="background-color: #FFFFFF") 2
-                  td(data-aos="fade-down")(style="background-color: #FFFFFF") Liderazgo colectivo
-                tr
-                  td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") 3
-                  td(data-aos="fade-down")(style="background-color: #F6F6F6") Herramientas para fortalecer orgullo y confianza
-                tr
-                  td.text-bold(data-aos="fade-down")(style="background-color: #FFFFFF") 4
-                  td(data-aos="fade-down")(style="background-color: #FFFFFF") Planificación participativa
-                tr
-                  td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") 5
-                  td(data-aos="fade-down")(style="background-color: #F6F6F6") Construcción de buenas prácticas
-            figcaption Nota. Tomado de la Guía 5 OVOP Colombia (SENA, JICA, MinCIT, 2020).
+    .row.BG05.align-items-center.pt-5.pb-5.mb-4
+      .col-lg-12.col-11.px-lg-5.px-4 
+        p(data-aos="fade-down") Esta guía consta de cinco módulos y tiene como objetivo orientar a los instructores de OVOP Colombia en la transferencia de conocimientos hacia la comunidad, para fortalecer las competencias de los líderes comunitarios. De esta manera, los participantes pueden convertirse en líderes OVOP, capaces de promover el desarrollo local mediante la autogestión, la participación y la creatividad.
+        .row.justify-content-center.mb-0(data-aos="flip-down")
+          .col-lg-10.col-12
+            .titulo-sexto.color-acento-contenido
+              h5 Tabla 6.
+              span <em>Módulos de la Guía fortalecimiento de líderes OVOP</em>
+            .tabla-a.color-acento-contenido
+              table
+                thead
+                  tr
+                    th(data-aos="fade-down")(style= "width: 50%") Módulo
+                    th(data-aos="fade-down")(style= "width: 50%") Contenido
+                tbody
+                  tr
+                    td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") 1
+                    td(data-aos="fade-down")(style="background-color: #F6F6F6") Generalidades de OVOP
+                  tr
+                    td.text-bold(data-aos="fade-down")(style="background-color: #FFFFFF") 2
+                    td(data-aos="fade-down")(style="background-color: #FFFFFF") Liderazgo colectivo
+                  tr
+                    td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") 3
+                    td(data-aos="fade-down")(style="background-color: #F6F6F6") Herramientas para fortalecer orgullo y confianza
+                  tr
+                    td.text-bold(data-aos="fade-down")(style="background-color: #FFFFFF") 4
+                    td(data-aos="fade-down")(style="background-color: #FFFFFF") Planificación participativa
+                  tr
+                    td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") 5
+                    td(data-aos="fade-down")(style="background-color: #F6F6F6") Construcción de buenas prácticas
+              figcaption Nota. Tomado de la Guía 5 OVOP Colombia (SENA, JICA, MinCIT, 2020).
     .row.align-items-center.mb-5(data-aos="flip-down")
       .col-auto.pe-0(style="z-index:2")
         figure
@@ -1641,9 +1642,9 @@
               tr
                 td(data-aos="fade-down") 
                   p <b>Parte II</b>: taller práctico "Construimos nuestro orgullo y confianza".
-                  p En este taller, se va a identificar los productos basados en el eslogan de OVOP Colombia: "Mi Pueblo, Mi Producto, Mi Orgullo". 
+                  p En este taller, se va a identificar los productos basados en el <em>slogan</em> de OVOP Colombia: "Mi Pueblo, Mi Producto, Mi Orgullo". 
                   p Los participantes conforman grupos de trabajo.
-                  p Cada grupo muestra las características del municipio (la iniciativa) basado en el eslogan de OVOP - "Mi Pueblo, Mi Producto, Mi Orgullo". Se trabajará en un pliego de papel <em>bond</em>.
+                  p Cada grupo muestra las características del municipio (la iniciativa) basado en el <em>slogan</em> de OVOP - "Mi Pueblo, Mi Producto, Mi Orgullo". Se trabajará en un pliego de papel <em>bond</em>.
                 td(data-aos="fade-down") 25 minutos
                 td(data-aos="fade-down") Listado de nuevos productos descubiertos en la comunidad.
               tr

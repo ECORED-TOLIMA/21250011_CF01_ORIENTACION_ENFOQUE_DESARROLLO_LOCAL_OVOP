@@ -57,7 +57,7 @@
           .col-12.bg-c1.h-100
             .p-4
               h4 Mi Pueblo, Mi Producto, Mi Orgullo
-              p.mb-0 Este eslogan sintetiza la esencia del enfoque OVOP. “Mi Pueblo” representa el territorio y su identidad; “Mi Producto”, el resultado tangible de esa identidad; y “Mi Orgullo”, el sentimiento que impulsa a la comunidad a proteger, valorar y promover sus recursos como base de su desarrollo local.
+              p.mb-0 Este <em>slogan</em> sintetiza la esencia del enfoque OVOP. “Mi Pueblo” representa el territorio y su identidad; “Mi Producto”, el resultado tangible de esa identidad; y “Mi Orgullo”, el sentimiento que impulsa a la comunidad a proteger, valorar y promover sus recursos como base de su desarrollo local.
     p.mb-0(data-aos="fade-down") En conjunto, estas características evidencian que el territorio, en el enfoque OVOP, no se limita a un espacio físico, sino que constituye el núcleo de la identidad colectiva y el punto de partida para el fortalecimiento del desarrollo local sostenible.
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
