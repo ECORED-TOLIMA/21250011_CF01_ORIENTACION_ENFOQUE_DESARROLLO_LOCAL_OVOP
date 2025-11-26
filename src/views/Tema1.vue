@@ -54,8 +54,8 @@
             p.mb-0(data-aos="fade-down") De esta manera, el enfoque OVOP ha evolucionado de una estrategia regional japonesa a una filosofía global de desarrollo local, orientada a impulsar la autosuficiencia económica, la cohesión social y el orgullo por la identidad territorial en las comunidades del mundo.
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.2 Slogan del enfoque OVOP Colombia
-    p(data-aos="fade-down") El slogan “Mi Pueblo, Mi Producto, Mi Orgullo” constituye la expresión más representativa del enfoque OVOP Colombia, al sintetizar en tres ideas la esencia del desarrollo local incluyente: el reconocimiento del territorio, la valorización de sus productos y el fortalecimiento del orgullo comunitario.
+      h2 1.2 <em>Slogan</em> del enfoque OVOP Colombia
+    p(data-aos="fade-down") El <em>slogan</em> “Mi Pueblo, Mi Producto, Mi Orgullo” constituye la expresión más representativa del enfoque OVOP Colombia, al sintetizar en tres ideas la esencia del desarrollo local incluyente: el reconocimiento del territorio, la valorización de sus productos y el fortalecimiento del orgullo comunitario.
     p.mb-5(data-aos="fade-down") Este lema refleja la filosofía que guía las acciones del movimiento:
     .row.justify-content-center.mb-4
       .col-xl-4.col-lg-6.col-md-10.col-12.mb-xl-0
@@ -88,7 +88,7 @@
             h5.t1.mb-3 Mi Orgullo
             h5.t2.mb-2 Mi Orgullo
             p.mb-0 Enfatiza el sentimiento de pertenencia y valoración de lo propio, promoviendo la confianza en las capacidades locales y el compromiso con el desarrollo comunitario.
-    p.mb-5(data-aos="fade-down") De esta manera, el slogan resume la visión integral del enfoque OVOP, que busca fortalecer el vínculo entre las personas y su territorio, promoviendo la cooperación, la sostenibilidad y la identidad como pilares del desarrollo local.
+    p.mb-5(data-aos="fade-down") De esta manera, el <em>slogan</em> resume la visión integral del enfoque OVOP, que busca fortalecer el vínculo entre las personas y su territorio, promoviendo la cooperación, la sostenibilidad y la identidad como pilares del desarrollo local.
     .row.justify-content-center.mb-0(data-aos="flip-up")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido

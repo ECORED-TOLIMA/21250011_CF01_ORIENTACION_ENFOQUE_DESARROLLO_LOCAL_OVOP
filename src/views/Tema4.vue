@@ -1336,7 +1336,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-down")
       .col-lg-10.col-12.mb-5.mb-md-0.order-lg-2.order-2.mb-lg-0
         LineaTiempoD.color-acento-botones.especial
-          .row.mb-0(numero="1" titulo="Planificación y alcance")
+          .row.mb-0(numero="1" titulo="Liderazgo colectivo")
             .col-12.mb-0
               .tarjeta.tarjeta--blanca.p-4
                 ul.lista-ul.mb-0(data-aos="fade-down")(style="color:#1E2AD5")

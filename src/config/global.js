@@ -42,7 +42,7 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Slogan del enfoque OVOP Colombia',
+            titulo: '<em>Slogan</em> del enfoque OVOP Colombia',
             hash: 't_1_2',
           },
           {
