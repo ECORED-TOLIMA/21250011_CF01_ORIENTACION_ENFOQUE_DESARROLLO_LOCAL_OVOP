@@ -1091,14 +1091,14 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema4/img39.svg', alt='La figura 6 representa una cadena de valor simple')
+            img(src='@/assets/curso/temas/tema4/img39.svg', alt='En la figura 6 se presentan los cuatro eslabones que conforman una Cadena de Valor Simple. Los eslabones, presentados en secuencia, son: diseño de producto, producción, marketing y, finalmente, consumo y reciclaje. Representan el flujo básico que sigue un bien desde su creación hasta su uso y recuperación.')
             figcaption Nota. Adaptado de la Guía 5 OVOP Colombia (SENA, JICA, MinCIT, 2020 ).
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema4/img40.svg', alt='La figura 6 representa una cadena de valor simple')
+          img(src='@/assets/curso/temas/tema4/img40.svg', alt='En la figura 6 se presentan los cuatro eslabones que conforman una Cadena de Valor Simple. Los eslabones, presentados en secuencia, son: diseño de producto, producción, marketing y, finalmente, consumo y reciclaje. Representan el flujo básico que sigue un bien desde su creación hasta su uso y recuperación.')
           figcaption Nota. Adaptado de la Guía 4 OVOP Colombia (SENA, JICA, MinCIT, 2020).
     p(data-aos="fade-down") Con los conocimientos descritos se busca comprender los conceptos fundamentales de la Guía para el estudio de Cadena de Valor Simple, fortaleciendo las capacidades comunitarias para la planificación y el desarrollo local.
-    p.mb-5(data-aos="fade-down") En la guía de Cadena de Valor Simple se proponen dos metodologías para el análisis de la misma, sin embargo, se deja a discreción del instructor integrar otras metodologías que considere pertinente para tal fin, que hagan parte del ecosistema formativo del SENA.
+    p.mb-5(data-aos="fade-down") En la guía de Cadena de Valor Simple se proponen dos metodologías para el análisis de la misma, sin embargo, se deja a discreción del instructor integrar otras metodologías que considere pertinentes para tal fin, que hagan parte del ecosistema formativo del SENA.
     .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-12
         .titulo-sexto.color-acento-contenido
@@ -1389,7 +1389,7 @@
                 ul.lista-ul.mb-0(data-aos="fade-down")(style="color:#1E2AD5")
                   li.mb-0
                     i.lista-ul__vineta
-                    p.mb-0 Tiene credibilidad ante las entidades públicas o privadas y conocimiento de las rutas o procedimiento de las entidades. 
+                    p.mb-0 Tiene credibilidad ante las entidades públicas o privadas y conocimiento de las rutas o procedimientos de las entidades. 
                   li.mb-0
                     i.lista-ul__vineta
                     p.mb-0 Sabe cómo generar acuerdos o hacer negociaciones que beneficien a su comunidad. 
@@ -1613,7 +1613,7 @@
                 td(data-aos="fade-down") 15 minutos
                 td(data-aos="fade-down") Conclusiones y cierre.
               tr
-                td(colspan="3").text-bold(data-aos="fade-down") Módulo III
+                td(colspan="3").text-bold(data-aos="fade-down") Módulo III Elaboración del proyecto para sueño colectivo
               tr
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") <b>Parte I</b>: conceptos clave.
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") 30 minutos
