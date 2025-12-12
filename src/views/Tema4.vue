@@ -477,11 +477,11 @@
       .row.justify-content-center
         .col-10
           figure.desktop
-            img(src='@/assets/curso/temas/tema4/img24.svg', alt='La figura 2 presenta el modelo de planificación de <em>backcasting</em> en el cual la comunidad define una meta futura deseable, el “sueño colectivo”, y a partir de ella planifica las acciones necesarias desde el presente para alcanzarla. Se contrasta con la perspectiva de forecasting, que pronostica el futuro basándose en las condiciones y recursos actuales. El enfoque OVOP adopta el <em>backcasting</em> para orientar el desarrollo local desde una visión compartida de futuro.')
+            img(src='@/assets/curso/temas/tema4/img24.svg', alt='La figura 2 presenta el modelo de planificación de backcasting en el cual la comunidad define una meta futura deseable, el “sueño colectivo”, y a partir de ella planifica las acciones necesarias desde el presente para alcanzarla. Se contrasta con la perspectiva de forecasting, que pronostica el futuro basándose en las condiciones y recursos actuales. El enfoque OVOP adopta el backcasting para orientar el desarrollo local desde una visión compartida de futuro.')
             figcaption Nota. Tomado de la Guía 2 OVOP Colombia (SENA, JICA, MinCIT, 2020).
       .col-12
         figure.movil
-          img(src='@/assets/curso/temas/tema4/img25.svg', alt='La figura 2 presenta el modelo de planificación de <em>backcasting</em> en el cual la comunidad define una meta futura deseable, el “sueño colectivo”, y a partir de ella planifica las acciones necesarias desde el presente para alcanzarla. Se contrasta con la perspectiva de forecasting, que pronostica el futuro basándose en las condiciones y recursos actuales. El enfoque OVOP adopta el <em>backcasting</em> para orientar el desarrollo local desde una visión compartida de futuro.')
+          img(src='@/assets/curso/temas/tema4/img25.svg', alt='La figura 2 presenta el modelo de planificación de backcasting en el cual la comunidad define una meta futura deseable, el “sueño colectivo”, y a partir de ella planifica las acciones necesarias desde el presente para alcanzarla. Se contrasta con la perspectiva de forecasting, que pronostica el futuro basándose en las condiciones y recursos actuales. El enfoque OVOP adopta el backcasting para orientar el desarrollo local desde una visión compartida de futuro.')
           figcaption Nota. Tomado de la Guía 2 OVOP Colombia (SENA, JICA, MinCIT, 2020).
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-down")
       .bloque-texto-g__img(
@@ -1336,7 +1336,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-down")
       .col-lg-10.col-12.mb-5.mb-md-0.order-lg-2.order-2.mb-lg-0
         LineaTiempoD.color-acento-botones.especial
-          .row.mb-0(numero="1" titulo="Liderazgo colectivo")
+          .row.mb-0(numero="1" titulo="Líder Comunitario")
             .col-12.mb-0
               .tarjeta.tarjeta--blanca.p-4
                 ul.lista-ul.mb-0(data-aos="fade-down")(style="color:#1E2AD5")
@@ -1438,7 +1438,7 @@
               ul.lista-ul.mb-0.mt-3(data-aos="fade-down")
                 li.mb-0
                   i.lista-ul__vineta
-                  p.mb-0 <b>Redes de solidaridad</b>: espacio de intercambio de ideas, información entre los actores comunitarios permitiendo la transformación de sus recursos en productos. 
+                  p.mb-0 <b>Redes de solidaridad</b>: espacio de intercambio de ideas, información entre los actores comunitarios, permitiendo la transformación de sus recursos en productos. 
                 li.mb-0
                   i.lista-ul__vineta
                   p.mb-0 <b>Valor agregado</b>: desarrollo de una estrategia colectiva sobre un producto o servicio.
@@ -1472,7 +1472,7 @@
         .cajon.cajon.C02.p-4.mb-0
           .row.justify-content-center
             .col-lg-11.col-12
-              p.mb-3(data-aos="fade-down") Con el fin realizar el taller para construir el orgullo y la confianza remitirse al taller práctico <b>"Construimos nuestro orgullo y confianza"</b> que se encuentra en la guía de estudio.
+              p.mb-3(data-aos="fade-down") Con el fin realizar el taller para construir el orgullo y la confianza, remitirse al taller práctico <b>"Construimos nuestro orgullo y confianza"</b> que se encuentra en la guía de estudio.
     .row.align-items-center.mb-5(data-aos="flip-down")
       .col-auto.pe-0(style="z-index:2")
         figure

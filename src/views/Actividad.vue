@@ -16,7 +16,7 @@ export default {
       tema: 'tema_actividad_didactica',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo</b>: lea cada enunciado referente a los temas desarrollados en el componente formativo y elija entre verdadero y falso según corresponda.',
+        '<b>Objetivo</b>: evaluar la comprensión de los conceptos fundamentales, principios, metodologías y estrategias didácticas del enfoque Mi Pueblo, Mi Producto, Mi Orgullo – OVOP Colombia, promoviendo la reflexión sobre su aplicación en los procesos de desarrollo local y comunitario.',
       barajarPreguntas: true,
       preguntas: [
         {
